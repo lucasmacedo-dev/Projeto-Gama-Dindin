@@ -1,0 +1,296 @@
+
+#formulario{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 82px;
+  padding-bottom: 99px;
+}
+
+#formulario input{
+  color: #58555D;
+}
+
+#formulario textarea{
+  color: #58555D;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FF4081;
+  margin-bottom: 35px;
+}
+
+#form-name{
+  border: #686868 1px solid;
+  width: 493px;
+  height: 32px;
+  border-radius: 7px;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+
+
+#form-email{
+  border: #686868 1px solid;
+  width: 493px;
+  height: 32px;
+  border-radius: 7px;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+
+#form-messenger{
+  border: #686868 1px solid;
+  width: 496px;
+  height: 200px;
+  font-size: 14px;
+  text-align: start;
+  padding: 10px 8px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+
+#formulario button {
+  color: #fff;
+  background: #FF4081;
+  border-radius: 50px;
+  border-style: none;
+  padding: 5px 7px;
+  max-width: 108px;
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 16px;
+}
+
+#formulario form input:focus,
+#formulario form textarea:focus {
+  outline: none;
+}
+
+#formulario form input::placeholder,
+#formulario form textarea::placeholder {
+  color: #58555D;
+}
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 1207px) {
+
+  #formulario{
+    display: flex;
+    gap: 40px;
+    
+  }
+}
+
+@media (max-width: 1091px) {
+
+  #formulario{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1069px) {
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:center ;
+    padding: 40px;
+  }
+
+}
+
+@media (max-width: 651px) {
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:center ;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 300px;
+  }
+
+  .imagem-form {
+    display: flex;
+    justify-content: center;
+    
+    width: 380px;
+    height: 380px;
+  }
+
+  #form-name{
+    border: #686868 1px solid;
+    width: 400px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-email{
+    border: #686868 1px solid;
+    width: 400px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-messenger{
+    border: #686868 1px solid;
+    width: 403px;
+    height: 200px;
+    font-size: 14px;
+    text-align: start ;
+    padding: 10px 8px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+  
+  #form-send {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+  
+  }
+}
+
+
+@media (max-width: 501px) {
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:center ;
+    padding: 40px;
+    box-sizing: border-box;
+    
+  }
+
+  .imagem-form {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 352px;
+  }
+
+  #form-name{
+    border: #686868 1px solid;
+    width: 380px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-email{
+    border: #686868 1px solid;
+    width: 380px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-messenger{
+    border: #686868 1px solid;
+    width: 380px;
+    height: 200px;
+    font-size: 14px;
+    text-align: start ;
+    padding: 10px 8px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+  
+  #form-send {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+  
+  }
+}
+
+@media (max-width: 449px) {
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:center ;
+    padding: 40px;
+    box-sizing: border-box;
+    
+  }
+
+  .imagem-form {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 302px;
+  }
+
+  #form-name{
+    border: #686868 1px solid;
+    width: 302px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-email{
+    border: #686868 1px solid;
+    width: 302px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+  }
+  
+  #form-messenger{
+    border: #686868 1px solid;
+    width: 305px;
+    height: 200px;
+    font-size: 14px;
+    text-align: start;
+    padding: 10px 8px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+  
+  #form-send {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+  
+  }
+}

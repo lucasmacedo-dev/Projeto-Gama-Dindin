@@ -1,0 +1,97 @@
+ #banner h1 {
+     color: #FF4081;
+     font-weight: 700;
+     font-size: 6rem;
+
+ }
+
+ #banner p {
+     color: #555555;
+     font-weight: 400;
+     font-size: 2rem;
+ }
+
+ #banner {
+     padding: 8.1rem 9.5rem 8.2rem;
+     max-width: 317px;
+ }
+
+ hr {
+     border: 2px solid #C4C4C4;
+     margin-bottom: 10.7rem;
+ }
+
+ section {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding-bottom: 6.8rem;
+ }
+
+ section h2 {
+     color: #FF4081;
+     font-weight: 700;
+     font-size: 3.5rem;
+     padding-bottom: 3.7rem;
+ }
+
+ section p {
+     color: black;
+     font-weight: 300;
+     font-size: 1.8rem;
+     max-width: 72.4rem;
+     padding-bottom: 5.3rem;
+
+ }
+
+ section a {
+     color: #FFFFFF;
+     font-weight: 400;
+     font-size: 2rem;
+     background: #419488;
+     border-radius: 6.2rem;
+     padding: 0.8rem 4.2rem;
+     text-decoration: none;
+     max-width: 23.3rem;
+ }
+
+ section div {
+     padding: 0rem 5.3rem;
+ }
+
+ section img {
+     padding-bottom: 1rem;
+     max-width: 38rem;
+     max-height: 38.1rem;
+     width: 100%;
+ }
+
+
+ @media (max-width: 1156px) {
+     section div {
+         text-align: center;
+     }
+ }
+
+ @media (max-width: 425px) {
+     section img {
+         width: 80%;
+     }
+
+     section a {
+         font-size: 1.8rem;
+     }
+
+     #banner {
+         padding: 8.1rem 6.5rem 8.2rem;
+     }
+ }
+
+
+ @media (max-width: 349px) {
+     section div {
+         padding: 0px;
+         margin: 0rem 1rem;
+     }
+ }

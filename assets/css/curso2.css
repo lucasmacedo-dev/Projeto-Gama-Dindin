@@ -1,0 +1,303 @@
+
+
+
+#investimento-section{
+ 
+  display: flex; 
+  justify-content: center;
+  gap: 200px;
+  margin: 80px;
+}
+
+h1{
+  font-size: 55px;
+  color: #FF4081;
+  font-weight: 700; 
+}
+
+section p{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  width: 400px;
+  margin-top: 20px;
+  
+}
+
+#main-videos{
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+justify-content: space-between;
+padding-bottom:75px ;
+padding-top: 81px;
+}
+
+
+
+.borda{
+  border-bottom: 3px solid #c4c4c4;
+  padding-bottom: 80px;
+}
+
+section article{
+  display: flex;
+  justify-content: center;
+  gap: 100px ;
+  margin: 35px;
+ 
+}
+
+section h3{
+  color: #FF4081;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 1070px)
+{
+  
+  #investimento-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+
+  #main-videos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   margin-top: 75px;
+  }
+
+  section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  section h3{
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+  }
+
+  p{
+    display: flex;
+    align-items:center ;
+  }
+
+  article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  
+  }
+
+  }
+
+
+
+  @media (max-width: 845px){
+
+    #investimento-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      
+    }
+  
+
+    .imagem-investimento{
+      height: 381px;
+      width: 380px;
+    }
+
+
+
+  }
+
+  @media(max-width: 762px){
+    #nav-footer2 a{
+      align-self: center;
+      font-size: 15px;
+      font-weight: 700;
+      border: 2px solid;
+      border-radius: 62px;
+      padding: 8px 17px;
+    } 
+    
+  }
+
+
+  @media(max-width: 607px){
+    section article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      gap: 40px ;
+      margin: 35px;
+     
+    }
+
+    .imagem-investimento{
+      height: 381px;
+      width: 380px;
+    }
+    
+    iframe{
+      width: 462px;
+      height: 261px;  
+    }
+  }
+
+  @media(max-width: 505px){
+    section article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      gap: 40px ;
+      margin: 35px;
+     
+    }
+    
+    iframe{
+      width: 400px;
+      height: 228px;  
+    }
+  }
+    
+  @media(max-width: 443px){
+    section article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      gap: 40px ;
+      margin: 35px;
+     
+    }
+    
+    iframe{
+      width: 370px;
+      height: 208px;  
+    }
+
+    article div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      max-width: 275px;
+    }
+    #investimento-section{
+      display: flex;
+      flex-direction: column;
+      align-items:center ;
+      justify-content: center;
+      
+    }
+    h1{
+      font-size: 50px;
+      line-height: 48px;
+      color: #FF4081;
+      font-weight: 700; 
+    }
+    
+    section p{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      width: 350px;
+      margin-top: 20px;
+      
+    }
+    .borda{
+      border-bottom: 3px solid #c4c4c4;
+      padding-bottom: 60px;
+    }
+
+  }
+   
+  @media(max-width: 437px){
+    section article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      gap: 40px ;
+      margin: 35px;
+      min-height: 395px;
+     
+    }
+    
+    iframe{
+      width: 335px;
+      height: 188px;
+      display: flex;
+      align-items: center;  
+    }
+
+    article div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      max-width: 275px;
+    }
+    #investimento-section{
+      display: flex;
+      flex-direction: column;
+      align-items:center ;
+      justify-content: center;
+      
+    }
+    h1{
+      font-size: 50px;
+      line-height: 48px;
+      color: #FF4081;
+      font-weight: 700; 
+    }
+    
+    section p{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      width: 300px;
+      margin-top: 20px;
+      
+    }
+
+    #main-videos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center ;
+      
+    }
+
+    .imagem-investimento{
+      width: 340px;
+      height: 341px;
+    }
+   
+    .borda{
+      border-bottom: 3px solid #c4c4c4;
+      padding-bottom: 40px;
+    }
+
+
+  }
+

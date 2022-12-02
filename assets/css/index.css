@@ -1,0 +1,263 @@
+#section1 h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 6rem;
+    padding-top: 125px;
+    max-width: 488px;
+    width: 100%;
+    margin-bottom: 1.9rem;
+}
+
+#section1 div{
+    max-width: 488px;
+    width: 100%;
+}
+
+#section1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 66px;
+}
+
+#section1 div img {
+    padding-top: 135px;
+    max-width: 501px;
+    max-height: 511px;
+    width: 100%;
+}
+
+#section1 p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 2.7rem;
+    margin-bottom: 3.8rem;
+}
+
+#section1 a {
+    color: #FF4081;
+    font-weight: 400;
+    font-size: 2.7rem;
+    border: 0.2rem solid #FF4081;
+    border-radius: 6.2rem;
+    padding: 0.8rem 2.6rem;
+    text-decoration: none;
+}
+
+#section2 {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-bottom: 117px;
+}
+
+#section2 div {
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2 div h3{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 23px;
+}
+
+#section2 div p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 1.7rem;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+#section2 div a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 2rem;
+    background: #FF4081;
+    border-radius: 6.2rem;
+    padding: 0.8rem 1.5rem 0.9rem 1.57rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+#poupando img {
+    max-width: 288px;
+    max-height: 270px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+#investimento img {
+    max-width: 238px;
+    max-height: 270px;
+    width: 100%;
+    margin-bottom: 43px;
+}
+#independencia img {
+    max-width: 187px;
+    max-height: 270px;
+    width: 100%;
+    margin-bottom: 43px;
+}
+
+#section3 h2 {
+    color: #009688;
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin: 11.9rem 7.8rem 12.8rem;
+}
+
+#section3 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 50%;
+    padding-bottom: 8.6rem;
+}
+
+#section3 p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 1.8rem;
+    max-width: 370px;
+}
+
+#section3 span {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#section3 img {
+    padding-right: 2.8rem;
+    
+}
+
+#section4 {
+    background-color: #E5E5E5;
+}
+
+#section4 h2 {
+    color: #009688;
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin-left: 128px;
+    margin-bottom: 73px;
+    padding-top: 91px;
+}
+#subsection4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10.1rem;
+}
+
+#section4 img {
+    max-width: 319px;
+    width: 100%;
+}
+
+#section4 p {
+    max-width: 319px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+}
+
+#section4 span {
+    color: #009688;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+#section4 a {
+    color: #FF4081;
+    text-decoration: none;
+    border: 0.2rem solid #FF4081;
+    border-radius: 6.2rem;
+    padding: 1rem 4.1rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+#subsection4-2 {  /*para centralizar o "a"*/
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5.3rem;
+}
+
+@media (max-width: 425px) {
+    #section4 h2 {
+        padding: 5rem 0.5rem 0rem 0.5rem;
+    }
+
+    #section3 div {
+        padding-bottom: 4.6rem;
+    }
+
+    #section3 h2 {
+        margin: 6.9rem 2.8rem 7rem;
+    }
+}
+
+@media (max-width: 320px) {
+    #section4 {
+        padding: 0px 5px;
+    }
+
+}
+
+@media (max-width: 337px) {
+    #section2 div h3 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 501px){
+    #section3 div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 975px) {
+    #section1 {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 50px;
+} 
+    #section1 div {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #section1 img {
+        margin-bottom: 0px;
+    }
+    #section3 div {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    #section4 h2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    #section3 h2 {
+        text-align: center;
+        margin-top: 11,9rem;
+        margin-bottom: 7rem;
+    }
+    #section1 div img {
+        width: 90%;
+    }
+}
